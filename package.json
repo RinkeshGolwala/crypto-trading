@@ -1,0 +1,15 @@
+{
+  "name": "crypto-trading",
+  "version": "1.0.0",
+  "repository": "https://github.com/RinkeshGolwala/crypto-trading",
+  "dependencies": {
+    "grenache-nodejs-http": "^0.7.13",
+    "grenache-nodejs-link": "^0.7.13",
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "server": "node src/server.js",
+    "client": "node src/client.js"
+  }
+}
